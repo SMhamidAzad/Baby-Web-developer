@@ -1,0 +1,72 @@
+body{
+    font-family: 'Pushster', cursive;
+    margin: 0;;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+.top-span{
+    color: orange;
+}
+.button-top{
+    text-decoration: none;
+    background-image: linear-gradient(orange,black,blue);
+    color: white;
+    padding: 8px 24px;
+    border-radius: 5px;
+}
+.top-banner{
+    width: 50%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 30px grey;
+}
+.top-banner img{
+    width: 80%;
+}
+.top-details{
+    display: flex;
+    margin-bottom: 150px;
+}
+.top-back{
+    background-image: url(images/leaf-yellow.png);
+    background-repeat: no-repeat;
+    
+}
+.mid-back{
+    background-image: url(images/leaf-pink.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,yellow,red);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(grey,yellow,black);
+    border-image-slice: 1;
+}
+.exp-area{
+    background-image: url(images/leaf-orange.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 30px grey;
+    padding: 20px;
+    border-radius: 15px;
+}
+#exp-id{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    color: grey;
+}
